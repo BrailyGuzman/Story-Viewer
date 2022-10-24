@@ -14,7 +14,7 @@ class StoryViewer:
         pass
 
     def login(self, username, password):
-        url = "https://www.instagram.com/accounts/login/ajax/"
+        url = "https://i.instagram.com/api/v1/web/accounts/login/ajax/"
 
         headers = {
             "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
